@@ -1,0 +1,33 @@
+{{>partials/header}}
+<form action="/contato" method="post">
+      <input type="text" placeholder="Usuário" autofocus autocomplete="off" required maxlength="10" oninvalid="this.setCustomValidity('Preenche isso ae man')" />
+
+      <input type="password" placeholder="Senha" required maxlength="4" />
+
+      <input type="submit" value="Enviar" />
+    </form>
+    <hr>
+
+
+    <h1>Produtos</h1>
+        <ul>
+            {{#products}}
+                <li>{{name}} - R${{price}}</li>
+            {{/products}}
+        </ul>
+    <br>
+    <hr>
+    <h1>Soma dos produtos</h1>
+    R${{totalPrice}}
+    <br>
+    <hr>
+    <ul>
+        {{#frasesDoDia}}
+            <li>{{.}}</li>
+        {{/frasesDoDia}}
+
+        {{^frasesDoDia}}
+            <h1>Não há frases do dia hoje</h1>
+        {{/frasesDoDia}}
+    </ul>
+ {{>partials/footer}}

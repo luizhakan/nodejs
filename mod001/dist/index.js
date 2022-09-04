@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+// let n1: number = 10;
+// let n2: number = 2;
+// console.log(`Soma: ${Matematica.somar(n1, n2)}`);
+// console.log(`Subtração: ${Matematica.subtrair(n1, n2)}`);
+// console.log(`Multiplicação: ${Matematica.multiplicar(n1, n2)}`);
+// let ip = "127.0.0.1";
+// console.log(validator.isEmail("luizhakan2@protonmail.com"));
+// validator.isIP(ip) ? console.log("É um IP") : console.log("Não é um IP");
