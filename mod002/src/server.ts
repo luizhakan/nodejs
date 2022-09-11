@@ -17,7 +17,7 @@ server.use(rotasPrincipais);
 
 // CASO DÊ 404
 server.use((req: Request, res: Response) => {
-  res.status(404).send("Não encontrada amigão, tenta outra rota!");
+  res.status(404).render("pages/404");
 });
 
 // ONDE O SERVIDOR VAI ESCUTAR
