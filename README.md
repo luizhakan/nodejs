@@ -1,6 +1,6 @@
 - [x] Módulo 1: Noções básicas de Node
  
-- [] Módulo 2: Projeto: Canil
+- [x] Módulo 2: Projeto: Canil
  
 - [] Módulo 3: Banco de dados SQL (mysql/postgresql)
  
