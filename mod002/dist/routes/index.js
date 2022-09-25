@@ -29,7 +29,7 @@ const SearchController = __importStar(require("../controllers/searchController")
 const router = (0, express_1.Router)();
 router.get("/", PageController.home);
 router.get("/dogs", PageController.dogs);
-router.get("cats", PageController.cats);
-router.get("fishes", PageController.fishes);
+router.get("/cats", PageController.cats);
+router.get("/fishes", PageController.fishes);
 router.get("/search", SearchController.search);
 exports.default = router;

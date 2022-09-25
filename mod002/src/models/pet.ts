@@ -143,7 +143,7 @@ export const Pet = {
   },
   getFromName: (name: string): Pet[] => {
     return data.filter((item) => {
-      return item.name.toLowerCase().includes(name.toLowerCase());
+      return item.name.toLowerCase().includes(name.toLowerCase()); 
     });
   },
 };
