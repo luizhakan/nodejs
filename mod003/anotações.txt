@@ -26,3 +26,7 @@ MySQL não é case-sensitive, PostgreSQL é.
 Geralmente para grandes volumes ou consultas complexas, o PostgreSQL é mais rápido.
 
 MySQL geralmente é mais rápido para consultas simples.
+
+ORM = Object Relational Mapper
+Mapeamento objeto-relacional
+
