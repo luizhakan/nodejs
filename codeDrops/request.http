@@ -1,0 +1,25 @@
+POST http://localhost:3000/products
+content-type: application/json
+
+{
+    "name": "Samsung A32 5G",
+    "price": 1900
+}
+
+###
+
+GET http://localhost:3000/products
+
+###
+
+PUT http://localhost:3000/products/255046ee-8c4f-467a-9ab8-7af82dd09eac
+content-type: application/json
+
+{
+    "name": "Samsung A32 4G",
+    "price": 1700
+}
+
+###
+
+DELETE http://localhost:3000/products/39074ba3-a0f2-4937-b840-fc4be47be29c
